@@ -96,7 +96,7 @@ app.post('/api/assigner-couleur', async (req, res) => {
       res.status(404).json({ error: 'Tâche non trouvée' });
     }
   } catch (err) {
-    res.status(500).json({ error: 'Erreur de mise à jour de l'état' });
+    res.status(500).json({ error: "Erreur de mise à jour de l'état" });
   }
 });
 
